@@ -16,5 +16,5 @@ public class Projektas1 {
     public static void main(String[] args) {
         Studentas stud = new Studentas();
         System.out.println(stud);
-;    }
+    }
 }
