@@ -29,13 +29,12 @@ public class Studentas {
     private double logika;
     private double statistika;
 
-    public Studentas() {
-        
+    public Studentas() {       
     }
 
     public Studentas(String pav, String v, String gr, double mat, double log, double stat) {
         pavarde = pav;
-        vardas = v;
+        vardas = v; //lklklkl
         grupe = gr;
         matematika = mat;
         logika = log;
