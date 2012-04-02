@@ -29,13 +29,13 @@ public class Studentas {
     private double logika;
     private double statistika;
 
-    public Studentas() {       
+    public Studentas() {
     }
 
     public Studentas(String pav, String v, String gr, double mat, double log, double stat) {
         pavarde = pav;
-        vardas = v; //lklklkl
-        grupe = gr;
+        vardas = v; //lklklkl[]
+        grupe = gr;]]
         matematika = mat;
         logika = log;
         statistika = stat;
@@ -117,7 +117,7 @@ public class Studentas {
         }
     }
 
-//Ar sutampa raktinis laukas?          
+//Ar sutampa raktinis laukas?
     public boolean lyginimasPavarde(String pavarde) {
         if ((this.pavarde.trim().equals(pavarde.trim()))) {
             return true;
@@ -126,7 +126,7 @@ public class Studentas {
         }
     }
 
-// Formuojamas irasas isvedimui i Ekrana viena eilute    
+// Formuojamas irasas isvedimui i Ekrana viena eilute
     @Override
     public String toString() {
         String pav = ilgioFormatas(pavarde, 14);
